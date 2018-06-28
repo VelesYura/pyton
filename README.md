@@ -1,1 +1,1 @@
-# my first project Pyton
+# Repository for Python Training
