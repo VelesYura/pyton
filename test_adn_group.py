@@ -19,7 +19,7 @@ class test_adn_group(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
-        self.create_group(wd, name="Name", headerr="header", footerr="footer")
+        self.create_group(wd, name="Name", header="header", footer="footer")
         self.return_to_groups_page(wd)
         self.logout(wd)
 
@@ -29,7 +29,7 @@ class test_adn_group(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.open_groups_page(wd)
-        self.create_group(wd, name="", headerr="", footerr="")
+        self.create_group(wd, name="", header="", footer="")
         self.return_to_groups_page(wd)
         self.logout(wd)
 
